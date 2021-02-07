@@ -1,0 +1,19 @@
+{
+  "type" : "record",
+  "name" : "Event1",
+  "namespace" : "bri.avro.kafka.dto",
+  "doc" : "Schema for bri.avro.kafka.playground.dto.event1",
+  "fields" : [
+    {
+    "name" : "id",
+    "type" : [ "null", "string" ]
+     },
+     {
+    "name" : "count",
+    "type" : "int"
+    },
+    {
+    "name" : "timestamp",
+    "type" : "long"
+    } ]
+}
