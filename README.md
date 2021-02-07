@@ -34,6 +34,12 @@ kafkacat -C -b localhost:29092 -t event1-topic -s key=s -s value=avro -r http://
 
 ![Screeshot](images/TablePlus-record.jpg) 
 
+![Screeshotv1](./images/TablePlus-record.jpg) 
+
+![Screeshotv2](https://github.com/briduski/jdbc-sink-connector-example/blob/main/images/TablePlus-record.png)
+
+![Screeshotv3](https://github.com/briduski/jdbc-sink-connector-example/blob/master/TablePlus-record.png?raw=true)
+
 8. Destroy container: docker-compose down
 
 
